@@ -1,6 +1,10 @@
 
 
 class chatModel{
+  /**
+  * Nên dùng get set, không lấy biến trực tiếp ra nha
+  **/
+ 
   final String name;
   final String message;
   final String time;
@@ -10,6 +14,9 @@ class chatModel{
 
 }
 
+/**
+* Dummy data không nên để đây. Để ở class constants riêng.
+**/
   List<chatModel> dummyData = [
    new chatModel(name: 'Tony',
      message: 'Hello , Welcome to Diary',
